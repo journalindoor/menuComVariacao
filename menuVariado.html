@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title></title>
+
+	<style>
+	#menu{
+		display: flex;
+		border: 1px solid #ccc;
+		padding: 5px;
+	}
+	#cx-pergunta{
+		display: block;
+		width: 30%;
+	}
+	#cx-pesquisa{
+		display: flex;
+		background: red;
+		width: 100%;
+		text-align: right;
+	}
+	#input-pesquisa{
+		width: 100%;
+	}
+
+	#cx-pergunta + #cx-pesquisa {
+		width: 69%;
+	}
+
+	</style>
+
+</head>
+<body>
+
+	<h3>COM O BOTAO DE PERGUNTA:</h3>
+
+	<div id="menu">
+		<div id="cx-pergunta">
+			<button id="pergunta">PERGUNTA</button>
+		</div>
+		<div id="cx-pesquisa">			
+			<input type="text" id="input-pesquisa">
+			<button id="pesquisa">PESQUISA</button>
+		</div>
+	</div>
+
+
+	<h3>SEM O BOTAO DE PERGUNTA:</h3>
+
+	<div id="menu">
+		<div id="cx-pesquisa">			
+			<input type="text" id="input-pesquisa">
+			<button id="pesquisa">PESQUISA</button>
+		</div>
+	</div>
+
+</body>
+</html>
